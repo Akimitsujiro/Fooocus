@@ -53,3 +53,5 @@
         "indigo_Furrymix_v110_realistic_fin_fp32.safetensors",
         "indigo_Furrymix_v105_hybrid_fin_fp32.safetensors",
         "indigo_Furrymix_v100_anime_fin_fp32.safetensors"
+    ]
+}
