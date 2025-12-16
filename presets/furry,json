@@ -1,0 +1,55 @@
+{
+    "default_model": "indigo_Furrymix_v120_hybrid_fp32.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 6.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Semi Realistic",
+        "Fooocus Masterpiece"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "indigo_Furrymix_v120_hybrid_fp32.safetensors": "https://huggingface.co/uhralk/Indigo_Furry_mix/resolve/main/indigo_Furrymix_v120_hybrid_fp32.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {},
+    "previous_default_models": [
+        "indigo_Furrymix_v115_anime_fin_fp32.safetensors",
+        "indigo_Furrymix_v110_realistic_fin_fp32.safetensors",
+        "indigo_Furrymix_v105_hybrid_fin_fp32.safetensors",
+        "indigo_Furrymix_v100_anime_fin_fp32.safetensors"
