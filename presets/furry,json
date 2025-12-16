@@ -1,30 +1,26 @@
 {
+    "name": "Furry Mix Custom",
     "default_model": "indigo_Furrymix_v120_hybrid_fp32.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            true,
             "None",
             1.0
         ],
         [
-            true,
             "None",
             1.0
         ],
         [
-            true,
             "None",
             1.0
         ],
         [
-            true,
             "None",
             1.0
         ],
         [
-            true,
             "None",
             1.0
         ]
@@ -48,10 +44,5 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
-    "previous_default_models": [
-        "indigo_Furrymix_v115_anime_fin_fp32.safetensors",
-        "indigo_Furrymix_v110_realistic_fin_fp32.safetensors",
-        "indigo_Furrymix_v105_hybrid_fin_fp32.safetensors",
-        "indigo_Furrymix_v100_anime_fin_fp32.safetensors"
-    ]
+    "previous_default_models": []
 }
